@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Luxurious Roman', cursive;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/**********************************************SECTION CONTACT AREA START***************************************************/
+/* #contact_area{
+    padding-top: 3.125rem;
+    padding-bottom: 5.625rem;
+    background: #353537;
+}
+.contact_title h2{
+    font-size: 2.1825rem;
+    text-align: center;
+    padding-bottom: 2.5rem;
+    position: relative;
+    margin-bottom: 2.5rem;
+    color: whitesmoke;
+}
+.contact_title h2::after{
+    content: "";
+    background: #FF0066;
+    width: 3.75rem;
+    height: 0.1875rem;
+    position: absolute;
+    bottom: 1.875rem;
+    left: 50%;
+    margin-left: -1.875rem;
+}
+.form_top input{
+    width: 50%;
+    height: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 0.625rem;
+    background:#242426;
+    color: white;
+    font-size: 0.9375rem;
+}
+.form_top{
+    margin-bottom: 25px;
+}
+.fname input{
+    margin-left: 150px;
+}
+.lname input{
+    margin-right: 150px;
+}
+.form_middle input{
+    width: 50%;
+    height: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 0.625rem;
+    background:#242426;
+    color: white;
+    font-size: 0.9375rem;
+}
+.form_middle{
+    margin-bottom: 20px;
+}
+.email input{
+    margin-left: 150px;
+}
+.number input{
+    margin-right: 150px;
+}
+.form_end{
+    padding-bottom: 20px;
+}
+.form_end textarea{
+    width: 62%;
+    height: 170px;
+    padding: 15px;
+    border: none;
+    border-radius: 0.625rem;
+    background:#242426;
+    color: white;
+    font-size: 0.9375rem;
+}
+.form_btn button{
+    padding: 0.625rem 1.25rem;
+    background: #FF0066;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.3125rem;
+    font-size: 20px;
+    transform: .5s;
+}
+.form_btn button:hover{
+    color: black;
+} */
+/**********************************************SECTION CONTACT AREA END***************************/
+/**********************************************SECTION ABOUT AREA START***************************/
+#about_area{
+    background:#353537;
+    padding-top: 5.625rem;
+    padding-bottom: 3.125rem;
+    overflow: hidden;
+}
+.about_img{}
+.about_img img{
+    width: 25rem;
+    border-radius: 1.875rem;
+}
+.about_contant h2{
+    font-size: 1.875rem;
+    margin-bottom: 1.875rem;
+    color:#FFFFFF;
+    position: relative;
+    font-size: 1.875rem;
+}
+.about_contant h2::after{
+    content: "";
+    width: 6.25rem;
+    height: 0.1875rem;
+    left: 50%;
+    position: absolute;
+    bottom: -0.9375rem;  
+    margin-left: -13.125rem;   
+    border-radius: 0.3125rem;   
+    background: #FF0066;
+}
+.about_contant p{
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: #AFAFB0;
+}
+.contant_middle{
+    color: #AFAFB0;
+    line-height: 1.875rem;
+}
+.cont_button{
+    padding-top: 2.125rem;
+}
+.contant_middle i{
+     color:orangered;
+}
+.contant_middle a{
+    margin-right: 1.25rem;
+    background: orangered ;
+    padding: 0.625rem 1.875rem;
+    color: #EAEAEA;
+    border-radius: 10px;
+    transition: .5s;
+}
+.contant_middle .a2{
+    padding: 0.4375rem 0.9375rem;
+    background: #353537;
+    color:#EAEAEA ;
+    border: solid;
+}
+.contant_middle a:hover{
+    color: black;
+}
