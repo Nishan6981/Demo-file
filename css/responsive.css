@@ -1,71 +1,206 @@
- /* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
 
-/* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-    
-    /* input[type=text]{
-        width: 100% !important;
-        margin-bottom: 20px;
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .menu .slicknav_menu{
+        margin-top: -50px;
+        margin-right: -15px;
     }
-    .lname input{
-        margin-left: -20px !important ;
+    .hide_menu{
+        display: none;
     }
-    .form_top , .form_middle{
+    .slicknav_menu{
+        display: block !important;
+    }
+    .menu .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_menu ul li {
+        display: block;
+    }
+    .menu .slicknav_menu li{
+        text-align: center;
+        /* margin-right: 96px; */
+    }
+    .slicknav_menu ul li {
+        width: 90% !important;
+    }
+    .menu .slicknav_btn {
+        margin: 10px 10px 5px;
+        text-decoration:none;
+        text-shadow:0 1px 1px rgba(255,255,255,.75);
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px;
+        border-radius:4px;
+        background-color: black;
+        border: 1px solid gray;
+        padding: 6px 10px;
+    }
+    .hide_menu .menu_card2{display: block !important;}
+    .menu_card{display: none;}
+    .slicknav_nav .menu_card2 a:hover{background: none; color: black;}
+    .menu_card2:hover{
+        background:#F7BF51;
+    }
+    .menu_card2 a:hover{
+        color: #6A6969;
+    }
+    /*****************HEADER AREA END  **********************************/
+    #popup{width: 100% !important;}
+    .popup_middle .date{margin-top: 10px;}
+    .popup_header h2::before{
+        height: 100% !important;
+    }
+
+    .bg_img{background-image: none !important;}
+    .flex{flex-direction: column-reverse;}
+    .front_img img {
+        margin-left: 0px !important;
+    }
+    .front_img {
+        text-align: center;
+    }
+    .advertis_cont{
+        margin-left: 0px  !important;
+        text-align: center;
+    }
+    .advertis_cont p{display: none;}
+    .cont_btn2 {
+        margin-top: 20px;
+    }
+    /*************====== MENU ORDER LIST AREA START=====****************/
+    .icon_box1 p{display: none;}
+    .order_list{
+        flex-wrap: wrap;
+        width: 80% !important;
         margin: 0 auto;
     }
-    input[type=email]{
+    .order_card1{border: none !important;}
+    .order_card2{border: none !important;}
+    .bread_img{display: none;}
+    /*************====== MENU ORDER LIST AREA END=====****************/
+    /******====HOME DELIVER AREA START======*******/
+    .home_deliver_contant{
+        display: flex;
+        width: 70% !important;
+        margin: 0 auto;
+    }
+    .home_deliver_cont{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+
+    }
+    .home_deliver_img{display: none;}
+    
+    /******================HOME DELIVER AREA END============================*******/
+    /******====================EVENTS AREA START ===========================*******/
+    .events_cont p{
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .events_card{
+        flex-wrap: wrap;
+        width: 80% !important;
+        margin: 0 auto;
+    }
+    .events_card_cont{
+        margin-top: 30px !important;
+        padding-left: 0px !important;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .events_card_cont button{
+        margin-bottom: 20px;
+    }
+    /******======================EVENTS AREA END ======================*******/
+    /*********========== ABOUT AREA START ==================*****************/
+    .about_contant{text-align: center;}
+    .about_contant p{
+        width: 90% !important;
+        margin: 0 auto;
+    }
+    .about_contant button{
+        margin-top: 10px;
+        width: 50% !important;
+    }
+    .avatar_box{
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .avatar_cont{
+        width: 80% !important;
+        margin: 0 auto;
+    }
+    /*********========== ABOUT AREA END ==================*****************/
+    /*********========== CONTACT AREA START ==================*****************/
+    #contact_area{
+        background-image: none !important;
+    }
+    .contact_card1{margin-bottom: 30px !important;}
+    .contact_card2{margin-bottom: 30px !important;}
+    /*********========== CONTACT AREA END ==================*****************/
+    .story_slide{
         width: 100% !important;
         margin-bottom: 20px;
     }
-    .number input{
-        margin-left: -20px !important ;
+    .story_img{display: none;}
+    .footer_cont1 .pic{display: none;}
+    .footer_area{
+        padding-bottom: 50px;
     }
-    .form_end textarea{
-        width: 97% !important;
-        margin-left: -15px !important ;
+    .footer_cont1{
+        width: 100% !important;
     }
-    .form_end {
-        margin: 0 -7px;
-     }
-     .circlechart{
-         margin-top: 20px;
-    } */
- }   
+    .footer_cont2{
+        justify-content: flex-end;
+    }
 
-
+}
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    /* .menu ul li {
-        display: inline-block;
-        margin-left: 2.375rem;
+@media (min-width: 768px) {
+    .menu ul li {
+        margin-right: 10px !important;
     }
-    input[type=email]{
-        width: 80%;
-        margin-left: -10px !important;
-       
+    .menu_card, .menu_card2{
+        padding: 0px 0px !important;
     }
-    .fname input{
-        width: 80%;
-        margin-left: -10px !important;
+    #popup{width: 60% !important;}
+    .time {
+        margin-bottom: 13px;
     }
-    .lname input{
-        width: 80%;
-        margin-right: -10px !important;
+    .front_img {
+        margin-top: 60px;
     }
-    .number input{
-        width: 80%;
-        margin-right: -10px !important;
+    .events_card{
+        width: 100% !important;
+        margin: 0 auto;
     }
-    .form_end textarea{
-        width: 92%;
-    } */
-
-    /* .contant_middle{width: 50% !important;} */
+    .contact_card3 img {
+        width: 75px;
+    }
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .menu_card, .menu_card2{
+        padding: 8px 0px !important;
+    }
+    #popup{
+        width: 40% !important;
+    }
+    .events_card{
+        width: 60% !important;
+    }
+    
 }
 
-/* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {}
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .menu ul li{
+        margin-right: 50px !important;
+    }
+}
 
-/* // X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
